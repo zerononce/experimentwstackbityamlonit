@@ -1,0 +1,30 @@
+---
+label: Article/Report
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: number
+  name: view
+  label: view
+- name: images
+  type: file
+  config:
+    maxSize: 250
+  label: images
+- type: field_group
+  name: header
+  label: header
+  fields:
+  - type: text
+    name: caption
+    label: caption
+- name: text_field
+  type: text
+  config:
+    required: false
+  label: text field
+  description: 'Where you write all your content '
+pages:
+- content/post/rocketman.md

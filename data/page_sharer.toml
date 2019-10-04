@@ -1,0 +1,35 @@
+[[buttons]]
+enable = true
+icon = "twitter"
+icon_pack = "fab"
+id = "twitter"
+title = "Twitter"
+url = "https://twitter.com/intent/tweet?url={url}&text={title}"
+[[buttons]]
+enable = true
+icon = "facebook-f"
+icon_pack = "fab"
+id = "facebook"
+title = "Facebook"
+url = "https://www.facebook.com/sharer.php?u={url}&t={title}"
+[[buttons]]
+enable = true
+icon = "envelope"
+icon_pack = "fas"
+id = "email"
+title = "Email"
+url = "mailto:?subject={title}&body={url}"
+[[buttons]]
+enable = true
+icon = "linkedin-in"
+icon_pack = "fab"
+id = "linkedin"
+title = "LinkedIn"
+url = "https://www.linkedin.com/shareArticle?url={url}&title={title}"
+[[buttons]]
+enable = false
+icon = "reddit-alien"
+icon_pack = "fab"
+id = "reddit"
+title = "Reddit"
+url = "https://reddit.com/submit?url={url}&title={title}"
